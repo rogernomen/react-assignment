@@ -17,14 +17,14 @@ If you have docker compose installed run in the root of the project:
 In case you have not installed Docker in your machine, the project can still be executed following these next steps:
 
 ### `npm install`
+### `npm run start`
+
+#
+**For the server initialisation:**
+`open a new terminal in the same folder`
 ### `cd bff`
 ### `npm install`
 ### `cd ..`
-### `npm run start`
-
-##
-For the server initialisation:
-### `open a new terminal in the same folder`
 ### `npm run start-server`
 
 
