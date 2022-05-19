@@ -1,9 +1,13 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from "react";
+import renderer from "react-test-renderer";
+import App from "./App";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe("the App Component", () => {
+	it("should be rendered", () => {
+		expect.assertions(1);
+		const component = renderer.create(<App></App>);
+		const tree = component.toJSON();
+
+		expect(tree).toMatchSnapshot();
+	});
 });

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "strict": true,
+    "declaration": true,
+    "removeComments": true,
+    "target": "ES6",
+    "outDir": "./dist",
+    "incremental": true
+  },
+  "include": ["src"],
+  "exclude": ["**/*.spec.ts", "dist/*"]
+}
+

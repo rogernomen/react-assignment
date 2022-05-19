@@ -1,0 +1,14 @@
+.navItem {
+    min-width: 87px;
+    display: inline-block;
+    margin: 10px 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+
+.active {
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+}

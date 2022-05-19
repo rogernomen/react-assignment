@@ -1,0 +1,12 @@
+.menuItem {
+    display: flex;
+    max-width: 100%;
+    border: 1px solid #e9e9e9;
+    height: 239px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    box-shadow: 3px 1px 17px #b8bdbd;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}

@@ -3,24 +3,45 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.1",
     "@types/node": "^16.11.36",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
+    "@types/react-test-renderer": "^18.0.0",
+    "axios": "^0.27.2",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-query": "^3.39.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.6.4",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios-mock-adapter": "^1.20.0",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-jest-dom": "^4.0.1",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-testing-library": "^5.0.5",
+    "prettier": "^2.6.2",
+    "react-test-renderer": "^18.1.0"
+  },
   "scripts": {
+    "start-server": "tsc --p bff/ && node bff/src/app.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test": "react-scripts test --coverage --coverageReporters=lcov --watchAll=false"
   },
   "eslintConfig": {
     "extends": [

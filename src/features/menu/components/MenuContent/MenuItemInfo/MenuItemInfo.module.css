@@ -1,0 +1,24 @@
+.menuItemInfo {
+    width: 180px;
+    text-align: left;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.description {
+    min-height: 140px;
+    margin: 40px 0 10px 0;
+}
+
+.prize {
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.arrow {
+    transform: rotate(180deg);
+    color: darkgrey;
+}
