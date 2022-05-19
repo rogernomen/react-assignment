@@ -6,6 +6,10 @@ and SOLID principles.
 - Tests are done with react-testing-library and Jest
 - The functionality it's not fully implemented for a lack of time but most of the topics related to a bigger
 development has been covered.
+- With extra time potential next steps would be:
+  - Use of NextJs for SSR
+  - Follow more accurately the design found in flipdish's website.
+  - Microfrontends with Module Federation
 
 #Time invested in the solution
 5-6 hours
