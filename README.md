@@ -1,7 +1,7 @@
 # Some context before the review
 - This project pretends to expose some concepts I've learned through my career like BFF, DDD 
 and SOLID principles.
-
+- Just the mobile layout has been implemented
 - State management is handled by a mix between React's Context API and React Query
 - Tests are done with react-testing-library and Jest
 - The functionality it's not fully implemented for a lack of time but most of the topics related to a bigger
