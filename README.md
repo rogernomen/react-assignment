@@ -11,6 +11,7 @@ development has been covered.
   - Follow more accurately the design found in flipdish's website.
   - Microfrontends with Module Federation
 
+#
 #Time invested in the solution
 5-6 hours
 
