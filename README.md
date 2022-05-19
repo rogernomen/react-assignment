@@ -7,6 +7,9 @@ and SOLID principles.
 - The functionality it's not fully implemented for a lack of time but most of the topics related to a bigger
 development has been covered.
 
+#Time invested in the solution
+5-6 hours
+
 ## Run the project
 This project has been built with Docker and Docker compose to run it.
 If you have docker compose installed run in the root of the project:
